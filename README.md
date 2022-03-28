@@ -13,7 +13,7 @@ Turkish/Türkçe
 
 Selenium bir web tarayıcı otomasyonudur. (web browser automation), istenilen duruma göre işlemleri gerçekleştirir. Genellikle automation testing için kullanılır fakat bunu farklı amaçlar içinde kullanabiliriz. Selenium WebDriver bir çok tarayıcıda çalışmaktadır, bu güzel bir özelliktir çünkü tarayıcının nasıl hareket ettiğini direk görebiliriz. Ek olarak Selenium WebDriver API ile birçok dilde yazabilirsiniz(Python, Java, C#, Ruby, Javascript,…). 
 
-ARABİC/العربية
+Arabic/العربية
 ------------------
 ما هي مكتبة سيلينيوم؟
 هي مكتبة مختصة باختبار Testing صفحات الويب، ولكن هذا الاستخدام لا يتوقف عند هدف الاختبار فقط، بل يتعداه ليشمل عمليات محاكاة استخدام الويب، وأتمتة automation العمليات التي تُنفذ على صفحات المواقع وأنظمة الويب، بالإضافة لتجريف الويب وجمع البيانات.
