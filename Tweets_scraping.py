@@ -15,7 +15,7 @@ class Twitter:
 
     
     def fonk(self):            
-        self.browser.get("https://twitter.com/firatresmihesap")  
+        self.browser.get("https://twitter.com/elonmusk")  
         self.browser.maximize_window()
                                           
         time.sleep(10)
