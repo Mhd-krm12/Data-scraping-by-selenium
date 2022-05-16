@@ -30,10 +30,6 @@ class Twitter:
         searchInput=self.browser.find_element_by_name("password")   
         searchInput.send_keys(Keys.ENTER)                           
         time.sleep(4)
-        
-
-
-        
 twitter = Twitter(username,password)
 twitter.singIn()        
 
