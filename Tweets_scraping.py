@@ -2,8 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-
-
 class Twitter:
     def __init__(self):
 
@@ -48,11 +46,7 @@ class Twitter:
              textfile = open("a_file.txt", "w")
              for element in results:
                  textfile.write( element + "\n")
-            
-            
-            # textfile.close()           
-
-
+              textfile.close()           
 
 twitter=Twitter()
 twitter.fonk()
