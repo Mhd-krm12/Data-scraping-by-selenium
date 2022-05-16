@@ -11,16 +11,12 @@ class Twitter:
         self.browserProfile = webdriver.ChromeOptions()                                                   
         self.browserProfile.add_experimental_option('prefs', {'intl.accept_languages': 'en,en_US'})    
         self.browserProfile.add_experimental_option('excludeSwitches', ['enable-logging'])
-        self.browser = webdriver.Chrome( options = self.browserProfile)                              
-
-    
+        self.browser = webdriver.Chrome( options = self.browserProfile)                                
     def fonk(self):            
         self.browser.get("https://twitter.com/elonmusk")  
-        self.browser.maximize_window()
-                                          
+        self.browser.maximize_window()                                          
         time.sleep(10)
         results=[]
-
         last_height = self.browser.execute_script("return document.documentElement.scrollHeight")
 
         while True:
@@ -29,8 +25,6 @@ class Twitter:
 
             # Wait to load page
             time.sleep(5)
-
-
             # Calculate new scroll height and compare with last scroll height
             new_height = self.browser.execute_script("return document.body.scrollHeight")
 
@@ -51,9 +45,9 @@ class Twitter:
                     file.write(f"{count}-{item}\n")
                     count+=1        
 
-            # textfile = open("a_file.txt", "w")
-            # for element in results:
-            #     textfile.write( element + "\n")
+             textfile = open("a_file.txt", "w")
+             for element in results:
+                 textfile.write( element + "\n")
             
             
             # textfile.close()           
